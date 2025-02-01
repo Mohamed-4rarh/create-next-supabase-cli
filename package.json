@@ -1,0 +1,26 @@
+{
+  "name": "create-next-supabase-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "bin": {
+    "create-next-supabase": "index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "child-process": "^1.0.2",
+    "degit": "^2.8.4",
+    "fs-extra": "^11.3.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0"
+  }
+}
